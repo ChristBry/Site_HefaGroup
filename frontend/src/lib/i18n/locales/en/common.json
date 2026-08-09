@@ -1,0 +1,49 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "news": "News",
+    "contact": "Contact"
+  },
+  "topbar": {
+    "email": "contact@hefagroups.com",
+    "phone": "+237 670 89 74 08",
+    "location": "Douala, Cameroon"
+  },
+  "actions": {
+    "appointment": "Make an appointment",
+    "contactUs": "Contact Us",
+    "getInTouch": "Get In Touch",
+    "readMore": "Read More...",
+    "viewMore": "View More",
+    "seeAll": "See All",
+    "subscribe": "Subscribe",
+    "sendMessage": "Send Message",
+    "switchLanguage": "Switch language"
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "servicesTitle": "Services",
+    "contactTitle": "Contact Us",
+    "phoneLabel": "Phone",
+    "locationLabel": "Location",
+    "emailLabel": "Email",
+    "faq": "FAQ'S",
+    "copyright": "Copyright © 2025 HefaGroup. All Rights Reserved."
+  },
+  "stats": {
+    "experience": "Years of experience",
+    "customers": "Satisfied Customers",
+    "consultants": "Expert Consultant",
+    "problems": "Problems Solved"
+  },
+  "newsletter": {
+    "title": "Subscribe to our newsletter to be informed of our latest news and updates.",
+    "placeholder": "name@mail.com",
+    "sending": "Sending...",
+    "success": "Thank you for subscribing to our Newsletter.",
+    "failure": "Failed to send the form.",
+    "error": "An error occurred while sending the form."
+  }
+}

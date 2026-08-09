@@ -1,0 +1,34 @@
+{
+  "title": "Services",
+  "solutions": {
+    "title": "Our Solutions",
+    "items": [
+      { "title": "Business Developpement", "description": "We specialize in assembling and managing teams of highly skilled advisors who augment your in-house resources by providing valuable business models, strategies, and plans across Africa." },
+      { "title": "Representation Services", "description": "We offer professional representation services for companies looking to establish or expand their presence in African markets, ensuring your interests are properly represented." },
+      { "title": "Corporate Events", "description": "Our team specializes in organizing and managing corporate events that help build your brand presence and establish valuable connections in target markets." },
+      { "title": "Training Facilitation", "description": "We provide specialized training programs designed to enhance the skills and capabilities of your team, preparing them for success in African markets." }
+    ]
+  },
+  "strategic": {
+    "title": "Strategic Management Services",
+    "items": [
+      { "title": "Mission & Vision", "description": "Specifying organization's purpose and future direction" },
+      { "title": "Performance Monitoring", "description": "Tracking results and adjusting strategies" },
+      { "title": "Strategy Development", "description": "Creating comprehensive plans and initiatives" },
+      { "title": "Resource Allocation", "description": "Distributing resources to execute policies and plans" }
+    ],
+    "center": "Organization Management"
+  },
+  "expansion": {
+    "items": [
+      { "title": "Market Research", "description": "Comprehensive analysis of target markets, competition, and opportunities specific to African regions." },
+      { "title": "Partner Identification", "description": "Finding reliable local partners and establishing productive joint ventures." },
+      { "title": "Client Acquisition", "description": "Helping foreign firms find their initial clients across African markets." },
+      { "title": "Sustainable Growth", "description": "Implementing long-term strategies for continued expansion." }
+    ]
+  },
+  "plus": {
+    "title": "Optimize Operations for Maximum Efficiency",
+    "description": "Drive innovation and lead your market segment. Contact us to explore how our consulting can position your business as a front."
+  }
+}

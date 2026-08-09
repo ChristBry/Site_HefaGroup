@@ -1,0 +1,26 @@
+{
+  "title": "À Propos",
+  "intro": {
+    "heading": "HefaGroup : Moteur du développement des affaires en afrique",
+    "paragraph": "HefaGroup est une société innovante de développement des affaires, dirigée par une équipe de consultants africains qualifiés et engagés dans divers domaines. Nous facilitons la croissance des entreprises à travers le continent grâce à une réflexion stratégique, des conseils managériaux et une exécution technique de qualité."
+  },
+  "about": {
+    "tag": "Qui sommes-nous ?",
+    "title": "Faites passer votre entreprise au niveau supérieur avec nous",
+    "paragraph1": "Nous sommes une équipe de consultants africains qui accompagnons le développement des entreprises en Afrique grâce à un soutien stratégique et une exécution technique de haut niveau.",
+    "paragraph2": "Nos consultants apportent une expertise, une expérience et un professionnalisme que les organisations peuvent mettre à profit. Nous appliquons des procédures de sélection rigoureuses afin de recruter uniquement les meilleurs professionnels, avec une expérience avérée et un parcours de carrière impressionnant. Soutenus par un réseau de professionnels et de partenaires œuvrant pour un succès partagé, nos consultants offrent les plus hauts standards de service client à travers l'Afrique."
+  },
+  "values": {
+    "title": "Nos Valeurs",
+    "description": "Nos valeurs fondamentales incluent la performance et les résultats (créer les meilleurs résultats possibles pour nos clients), l'intégrité et la responsabilité (agir de manière éthique et assumer pleinement ses responsabilités), ainsi que le professionnalisme et la réactivité (créer des environnements de travail efficaces en interne et avec nos clients).",
+    "items": [
+      { "title": "Confiance", "description": "Nous nous engageons à bâtir la confiance avec nos clients et partenaires grâce à la transparence, l'honnêteté et l'intégrité." },
+      { "title": "Responsabilité", "description": "Nous croyons au pouvoir de la collaboration et du travail d'équipe pour atteindre nos objectifs et offrir des résultats exceptionnels." },
+      { "title": "Présence Mondiale", "description": "Nous nous engageons à bâtir la confiance avec nos clients et partenaires grâce à la transparence, l'honnêteté et l'intégrité." },
+      { "title": "Innovation", "description": "Nous nous engageons à bâtir la confiance avec nos clients et partenaires grâce à la transparence, l'honnêteté et l'intégrité." }
+    ]
+  },
+  "newsletter": {
+    "description": "Abonnez-vous à notre newsletter pour être informé de nos dernières actualités."
+  }
+}

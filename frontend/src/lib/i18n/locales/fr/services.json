@@ -1,0 +1,34 @@
+{
+  "title": "Services",
+  "solutions": {
+    "title": "Nos Solutions",
+    "items": [
+      { "title": "Développement des Affaires", "description": "Nous sommes spécialisés dans la constitution et la gestion d'équipes de conseillers hautement qualifiés qui renforcent vos ressources internes en proposant des modèles économiques, des stratégies et des plans de valeur à travers l'Afrique." },
+      { "title": "Services de Représentation", "description": "Nous offrons des services de représentation professionnelle aux entreprises souhaitant s'implanter ou étendre leur présence sur les marchés africains, en veillant à ce que vos intérêts soient correctement représentés." },
+      { "title": "Événements Corporatifs", "description": "Notre équipe est spécialisée dans l'organisation et la gestion d'événements corporatifs qui renforcent la présence de votre marque et établissent des connexions précieuses sur les marchés cibles." },
+      { "title": "Facilitation de Formations", "description": "Nous proposons des programmes de formation spécialisés conçus pour renforcer les compétences de votre équipe et la préparer à réussir sur les marchés africains." }
+    ]
+  },
+  "strategic": {
+    "title": "Services de Gestion Stratégique",
+    "items": [
+      { "title": "Mission & Vision", "description": "Définir la raison d'être de l'organisation et son orientation future" },
+      { "title": "Suivi de la Performance", "description": "Suivre les résultats et ajuster les stratégies" },
+      { "title": "Développement de Stratégie", "description": "Créer des plans et initiatives complets" },
+      { "title": "Allocation des Ressources", "description": "Répartir les ressources pour exécuter les politiques et les plans" }
+    ],
+    "center": "Gestion de l'organisation"
+  },
+  "expansion": {
+    "items": [
+      { "title": "Étude de Marché", "description": "Analyse complète des marchés cibles, de la concurrence et des opportunités propres aux régions africaines." },
+      { "title": "Identification de Partenaires", "description": "Trouver des partenaires locaux fiables et établir des coentreprises productives." },
+      { "title": "Acquisition de Clients", "description": "Aider les entreprises étrangères à trouver leurs premiers clients sur les marchés africains." },
+      { "title": "Croissance Durable", "description": "Mettre en œuvre des stratégies à long terme pour une expansion continue." }
+    ]
+  },
+  "plus": {
+    "title": "Optimisez vos opérations pour une efficacité maximale",
+    "description": "Stimulez l'innovation et devenez leader de votre segment de marché. Contactez-nous pour découvrir comment notre expertise peut positionner votre entreprise en tête."
+  }
+}

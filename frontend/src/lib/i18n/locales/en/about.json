@@ -1,0 +1,26 @@
+{
+  "title": "About Us",
+  "intro": {
+    "heading": "HEFA Group : Driving Business Development Across Africa",
+    "paragraph": "HEFA Group is an innovative business development company led by a team of qualified, dedicated African consultants across diverse domains. We facilitate business growth throughout the continent with strategic thinking, managerial advice, and technical delivery."
+  },
+  "about": {
+    "tag": "Who are we ?",
+    "title": "Taking Your Business To The Next Level With Us",
+    "paragraph1": "We are a team of African consultants who support business development in Africa through strategic support and high-level technical execution.",
+    "paragraph2": "Our consultants bring depth and breadth of skills, expertise, experience, and professionalism that organizations can leverage. We maintain rigorous selection procedures to recruit only the best professionals with proven experience and impressive career track records. Supported by a network of professionals and partners working toward shared success, our consultants deliver the highest standards of customer service across Africa."
+  },
+  "values": {
+    "title": "Our Values",
+    "description": "Our core values include performance and results (creating the best possible outcomes for clients), integrity and accountability (acting ethically and taking full responsibility), and professionalism and responsiveness (creating efficient work environments internally and with clients).",
+    "items": [
+      { "title": "Trust", "description": "We are committed to building trust with our clients and partners through transparency, honesty, and integrity." },
+      { "title": "Responsibility", "description": "We believe in the power of collaboration and teamwork to achieve our goals and deliver exceptional results." },
+      { "title": "Global Presence", "description": "We are committed to building trust with our clients and partners through transparency, honesty, and integrity." },
+      { "title": "Innovation", "description": "We are committed to building trust with our clients and partners through transparency, honesty, and integrity." }
+    ]
+  },
+  "newsletter": {
+    "description": "Subscribe to our newsletter to be informed of our latest news and updates."
+  }
+}

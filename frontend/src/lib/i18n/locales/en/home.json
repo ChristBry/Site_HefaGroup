@@ -1,0 +1,83 @@
+{
+  "banner": {
+    "tag": "Business Consulting",
+    "title": "Empowering Your Business With Us",
+    "description": "Experience unparallaled growth with our expert guidance. Navigate challenges, seize opportunities, and watch your business flourish under our exceptional consulting excellence."
+  },
+  "about": {
+    "tag": "About Us",
+    "title": "Taking Your Business To The Next Level",
+    "paragraph1": "We are a team of African consultants who support business development in Africa through strategic support and high-level technical execution.",
+    "visionTitle": "Our Vision and Values",
+    "paragraph2": "People join HEFA Group because they share our vision of making a real and lasting impact on Africa's development. They believe in our values and ethics, and above all, they want to make a difference. Our core values include performance and results (creating the best possible outcomes for clients), integrity and accountability (acting ethically and taking full responsibility), and professionalism and responsiveness (creating efficient work environments internally and with clients)."
+  },
+  "services": {
+    "tag": "Our Services",
+    "title": "Discover Your Business Needs",
+    "description": "We are specialize in building and managing teams of highly qualified advisors who strengthen your internal resources.",
+    "items": [
+      {
+        "title": "Business Development",
+        "description": "We specialize in assembling and managing teams of highly skilled advisors who augment your in-house resources by providing valuable business models, strategies, and plans across Africa."
+      },
+      {
+        "title": "Representation Services",
+        "description": "We offer professional representation services for companies looking to establish or expand their presence in African markets, ensuring your interests are properly represented."
+      },
+      {
+        "title": "Corporate Events",
+        "description": "Our team specializes in organizing and managing corporate events that help build your brand presence and establish valuable connections in target markets."
+      },
+      {
+        "title": "Training Facilitation",
+        "description": "We provide specialized training programs designed to enhance the skills and capabilities of your team, preparing them for success in African markets."
+      }
+    ],
+    "cta": "All Services"
+  },
+  "why": {
+    "tag": "Why Choose Us",
+    "title": "Our Business Development Approach",
+    "reasons": [
+      { "title": "Proposition Development", "description": "We work with you to create a clearly defined value proposition that resonates with your target market." },
+      { "title": "Growth Strategy", "description": "Our team devises comprehensive growth plans tailored to your specific business objectives and market conditions." },
+      { "title": "Profile Building", "description": "We help build your credibility and visibility in target markets through strategic communications." },
+      { "title": "Client Acquisition", "description": "Our experienced business developers deliver your proposition in a compelling way, building rapport and understanding prospect objectives." }
+    ]
+  },
+  "team": {
+    "tag": "Expert Team",
+    "title": "Let's Talk With Our Consultants",
+    "description": "We are specialize in transforming businesses and fostering growth through strategic insights and unparalleled expertise.",
+    "memberName": "Fadimatou Noutchemo",
+    "memberRole": "Senior Consulting"
+  },
+  "plus": {
+    "title": "Optimize Operations for Maximum Efficiency",
+    "description": "Drive innovation and lead your market segment. Contact us to explore how our consulting can position your business as a front."
+  },
+  "articles": {
+    "tag": "Last Articles",
+    "title": "Read Our Recent News & Insights",
+    "description": "Stay connected to our activities, events and the business world in Africa through our news."
+  },
+  "faq": {
+    "tag": "FAQ'S",
+    "title": "Let's Ask Anything About Business",
+    "description": "We are specialize in transforming businesses and fostering growth through strategic insights and unparalleled expertise.",
+    "items": [
+      {
+        "question": "How do i know if my business needs consulting services ?",
+        "answer": "If your business is struggling to overcome challenges or capitalize on opportunities, consulting services can provide the expertise and support needed to navigate and succeed in today's competitive landscape."
+      },
+      {
+        "question": "How does the counseling process typically work ?",
+        "answer": "The counseling process generally begins with an initial consultation, where the counselor and client discuss the client's concerns, goals, and expectations. This is followed by a series of regular sessions, during which the counselor helps the client explore thoughts, emotions, and behaviors in a safe and supportive environment."
+      },
+      {
+        "question": "What sector of activity do you specialize in ?",
+        "answer": "We specialize in business consulting, helping companies improve their performance, structure their strategies, and achieve sustainable growth. Our services cover key areas such as strategic planning, organizational development, digital transformation, market analysis, and operational efficiency. We work closely with startups, SMEs, and institutions to unlock their full potential and navigate complex business environments with confidence."
+      }
+    ]
+  }
+}

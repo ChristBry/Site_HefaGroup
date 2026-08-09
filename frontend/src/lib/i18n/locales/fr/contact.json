@@ -1,0 +1,23 @@
+{
+  "title": "Contact",
+  "consultation": "Consultation Gratuite",
+  "form": {
+    "name": "Nom *",
+    "phone": "Téléphone *",
+    "email": "Email *",
+    "servicePlaceholder": "Recherche de solution",
+    "serviceOptions": {
+      "services": "Services",
+      "consulting": "Conseil",
+      "training": "Formation",
+      "representation": "Représentation"
+    },
+    "message": "Message"
+  },
+  "status": {
+    "sending": "Envoi en cours...",
+    "success": "Merci d'avoir contacté HefaGroup, nous vous répondrons très bientôt !",
+    "failure": "Échec de l'envoi du formulaire.",
+    "error": "Une erreur est survenue lors de l'envoi du formulaire."
+  }
+}

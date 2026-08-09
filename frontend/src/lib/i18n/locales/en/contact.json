@@ -1,0 +1,23 @@
+{
+  "title": "Contact",
+  "consultation": "Free Consultation",
+  "form": {
+    "name": "Name *",
+    "phone": "Phone *",
+    "email": "Email *",
+    "servicePlaceholder": "Software Research",
+    "serviceOptions": {
+      "services": "Services",
+      "consulting": "Consulting",
+      "training": "Training",
+      "representation": "Representation"
+    },
+    "message": "Message"
+  },
+  "status": {
+    "sending": "Sending...",
+    "success": "Thank you for contacting HefaGroup, we will get back to you very soon!",
+    "failure": "Failed to send the form.",
+    "error": "An error occurred while sending the form."
+  }
+}
