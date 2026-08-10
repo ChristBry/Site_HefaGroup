@@ -67,28 +67,15 @@ export default function Home() {
             </motion.div>
 
             <div className='service-part relative flex flex-col items-center'>
-                <motion.div
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={viewportOnce}
-                    variants={fadeUp}
-                    className='service-description flex flex-col items-center'
-                >
+                <div className='service-description flex flex-col items-center'>
                     <h4 className='rounded-full w-50 text-center'>{t('services.tag')}</h4>
                     <h2 className='text-center text-2xl sm:text-4xl font-bold'>{t('services.title')}</h2>
                     <p className='text-center text-xl'>{t('services.description')}</p>
-                </motion.div>
-                <motion.div
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={viewportOnce}
-                    variants={staggerContainer}
-                    className='services-list grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-15'
-                >
+                </div>
+                <div className='services-list grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-15'>
                     {services.map((service, index) => (
-                        <motion.div
-                            key={service.title}
-                            variants={fadeUp}
+                        <div
+                            key={index}
                             className={`service ${index % 2 !== 0 ? 'service-2' : ''} sm:w-[600px] h-[800px] ${index < 2 ? 'max-h-[420px] sm:max-h-[370px]' : 'max-h-[420px] sm:max-h-[340px]'} flex cursor-pointer flex-col-reverse sm:flex-row justify-center items-center sm:items-start rounded-xl`}
                         >
                             <div className=''>
@@ -96,29 +83,22 @@ export default function Home() {
                                 <p className='text-2xl text-left sm:text-justify'>{service.description}</p>
                             </div>
                             <i className={`fa-solid ${serviceIcons[index]} text-6xl sm:text-8xl`}></i>
-                        </motion.div>
+                        </div>
                     ))}
-                </motion.div>
+                </div>
                 <Link href='/services' className='allservice-button flex items-center justify-center rounded-full w-[220px] text-center text-xl'>{t('services.cta')}</Link>
             </div>
 
             <div className="choose-part relative flex items-center">
-                <motion.div initial="hidden" whileInView="visible" viewport={viewportOnce} variants={fadeIn}>
+                <div>
                     <Image src="/images/why.webp" alt='why' width={660} height={690} className='hidden sm:flex sm:w-[450px]' />
-                </motion.div>
-                <motion.div
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={viewportOnce}
-                    variants={staggerContainer}
-                    className="choose-container sm:w-[80%]"
-                >
-                    <motion.h4 variants={fadeUp} className='w-60 text-center rounded-full'>{t('why.tag')}</motion.h4>
-                    <motion.h2 variants={fadeUp} className='font-bold text-2xl lg:text-3xl'>{t('why.title')}</motion.h2>
+                </div>
+                <div className="choose-container sm:w-[80%]">
+                    <h4 className='w-60 text-center rounded-full'>{t('why.tag')}</h4>
+                    <h2 className='font-bold text-2xl lg:text-3xl'>{t('why.title')}</h2>
                     {reasons.map((reason, index) => (
-                        <motion.div
-                            key={reason.title}
-                            variants={fadeUp}
+                        <div
+                            key={index}
                             className='reason max-w-[700px] sm:w-[100%] flex flex-col gap-2 rounded-xl'
                         >
                             <div className='reason-label flex items-center'>
@@ -126,9 +106,9 @@ export default function Home() {
                                 <h5 className='text-2xl lg:text-[28px]'>{reason.title}</h5>
                             </div>
                             <p className='text-justify text-var[(--text-black-100)] text-lg'>{reason.description}</p>
-                        </motion.div>
+                        </div>
                     ))}
-                </motion.div>
+                </div>
             </div>
 
             <Stats />
@@ -190,7 +170,7 @@ export default function Home() {
                 className="plus-part flex flex-col items-center"
             >
                 <h1 className='text-center text-2xl sm:text-5xl'>{t('plus.title')}</h1>
-                <p className='text-cente text-lg sm:w-[70%] sm:text-xl'>{t('plus.description')}</p>
+                <p className='sm:text-center text-lg sm:w-[70%] sm:text-xl'>{t('plus.description')}</p>
                 <a className="plus-button rounded-full text-center w-[200px]" href='https://wa.me/237670897408?text=Bonjour%20je%20souhaite%20prendre%20un%20rendez%20vous' target='_blank'>{tc('actions.getInTouch')}</a>
             </motion.div>
 
@@ -253,7 +233,7 @@ export default function Home() {
                     <motion.p variants={fadeUp} className='text-justify text-lg'>{t('faq.description')}</motion.p>
                     <div className='faq-list flex flex-col gap-2'>
                         {faqs.map((faq, index) => (
-                            <motion.div key={faq.question} variants={fadeUp} className='faq sm:w-[100%] lg:w-[85%]'>
+                            <motion.div key={index} variants={fadeUp} className='faq sm:w-[100%] lg:w-[85%]'>
                                 <div
                                     className='faq-header flex items-center justify-between rounded-xl cursor-pointer'
                                     onClick={() => setOpenFaq(openFaq === index ? null : index)}

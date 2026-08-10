@@ -51,7 +51,7 @@ export default function Services() {
       >
         <div className="flex flex-col sm:flex-row justify-center items-center gap-20">
           {solutions.slice(0, 2).map((item, index) => (
-            <motion.div key={item.title} variants={fadeUp} className="service-container flex flex-col justify-center items-center w-[100%] sm:w-[40%]">
+            <motion.div key={index} variants={fadeUp} className="service-container flex flex-col justify-center items-center w-[100%] sm:w-[40%]">
               <Image src={solutionImages[index]} alt={item.title} width={512} height={512} className="rounded-xl w-30" />
               <h4 className="text-2xl font-bold">{item.title}</h4>
               <p className="text-sm text-justify">{item.description}</p>
@@ -61,7 +61,7 @@ export default function Services() {
 
         <div className="flex flex-col sm:flex-row justify-center items-center gap-20">
           {solutions.slice(2, 4).map((item, index) => (
-            <motion.div key={item.title} variants={fadeUp} className="service-container flex flex-col justify-center items-center w-[100%] sm:w-[40%]">
+            <motion.div key={index} variants={fadeUp} className="service-container flex flex-col justify-center items-center w-[100%] sm:w-[40%]">
               <Image src={solutionImages[index + 2]} alt={item.title} width={512} height={512} className="rounded-xl w-30" />
               <h4 className="text-2xl font-bold">{item.title}</h4>
               <p className="text-sm text-justify">{item.description}</p>
@@ -94,8 +94,8 @@ export default function Services() {
           </div>
           <motion.div variants={fadeUp} className="flex justify-center items-center w-[300px] h-[300px] relative pie-chart-container">
             <div className="pie-chart">
-              {strategic.map((item, index) => (
-                <div key={item.title} className={`pie-slice ${strategicSlices[index]}`}>
+              {strategic.map((_, index) => (
+                <div key={index} className={`pie-slice ${strategicSlices[index]}`}>
                   <i className={`fa-solid ${strategicIcons[index]} text-2xl text-white`}></i>
                 </div>
               ))}
@@ -125,7 +125,7 @@ export default function Services() {
         className="expansion flex flex-col lg:flex-row justify-center items-center"
       >
         {expansion.map((item, index) => (
-          <motion.div key={item.title} variants={fadeUp} className={`expansion-container w-[100%] lg:w-[25%] h-[250px] flex flex-col items-center ${index % 2 === 0 ? 'bg-gray-200' : 'bg-gray-300'}`}>
+          <motion.div key={index} variants={fadeUp} className={`expansion-container w-[100%] lg:w-[25%] h-[250px] flex flex-col items-center ${index % 2 === 0 ? 'bg-gray-200' : 'bg-gray-300'}`}>
             <Image src={expansionImages[index]} alt={item.title} width={512} height={512} className="w-15" />
             <h4 className="text-xl">{item.title}</h4>
             <div className="line"></div>
