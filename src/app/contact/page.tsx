@@ -5,6 +5,7 @@ import { motion } from "motion/react"
 import { useState } from "react"
 import { useTranslation } from "react-i18next"
 import { fadeUp, viewportOnce } from "@/lib/motion/variants"
+import { validateContactForm, sanitizeContactFormData } from "@/lib/validation"
 
 export default function Contact() {
   const { t } = useTranslation("contact")
@@ -18,7 +19,7 @@ export default function Contact() {
     message: ''
   })
   const [status, setStatus] = useState('');
-  const GOOGLE_SHEETS_API_URL = 'https://script.google.com/macros/s/AKfycbxV-8fniXKJ7WIr9HVbHwBo8kiX2sc4CkX86UnKOAYdG2qtVjru0D2Fm4f3icdkpldH/exec';
+  const GOOGLE_SHEETS_API_URL = process.env.NEXT_PUBLIC_GOOGLE_SHEETS_API_URL ?? '';
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
@@ -30,6 +31,14 @@ export default function Contact() {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+
+    const { valid } = validateContactForm(formData);
+    if (!valid) {
+      setStatus(t('status.invalid'));
+      setTimeout(() => setStatus(''), 5000);
+      return;
+    }
+
     setStatus(t('status.sending'));
 
     try {
@@ -39,7 +48,7 @@ export default function Contact() {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify(sanitizeContactFormData(formData)),
       });
 
       if (response.ok || response.type === 'opaque') {

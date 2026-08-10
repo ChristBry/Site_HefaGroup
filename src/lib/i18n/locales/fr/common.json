@@ -44,6 +44,7 @@
     "sending": "Envoi en cours...",
     "success": "Merci de vous être abonné à notre Newsletter.",
     "failure": "Échec de l'envoi du formulaire.",
-    "error": "Une erreur est survenue lors de l'envoi du formulaire."
+    "error": "Une erreur est survenue lors de l'envoi du formulaire.",
+    "invalid": "Veuillez saisir une adresse email valide."
   }
 }
