@@ -44,6 +44,7 @@
     "sending": "Sending...",
     "success": "Thank you for subscribing to our Newsletter.",
     "failure": "Failed to send the form.",
-    "error": "An error occurred while sending the form."
+    "error": "An error occurred while sending the form.",
+    "invalid": "Please enter a valid email address."
   }
 }
