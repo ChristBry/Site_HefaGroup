@@ -5,6 +5,8 @@ import "./mainStyle.css";
 import { I18nProvider } from "@/components/providers/I18nProvider";
 import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 const headingFont = Plus_Jakarta_Sans({
   variable: "--font-heading",
@@ -39,6 +41,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <I18nProvider>
           <Header />
           {children}
+          <Analytics />
+          <SpeedInsights />
           <Footer />
         </I18nProvider>
       </body>
