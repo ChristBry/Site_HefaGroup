@@ -76,7 +76,7 @@ export default function About() {
                         className="values sm:w-[80%] grid grid-cols-2 gap-4 lg:flex lg:flex-col lg:gap-6"
                     >
                         {values.map((value, index) => (
-                            <motion.div key={value.title} variants={fadeUp} className={valueClasses[index]}>
+                            <motion.div key={index} variants={fadeUp} className={valueClasses[index]}>
                                 <h4 className="text-[24px] font-semibold">{value.title}</h4>
                                 <p className="text-[16px]">{value.description}</p>
                             </motion.div>
