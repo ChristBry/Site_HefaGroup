@@ -6,6 +6,7 @@
     --bg-black-900: #152149;
     --bg-white-100: #F3F3F3;
     --bg-or-100: #f3b63c;
+    --bg-green-100: #008751;
     --text-black-100: #000000;
     --text-black-900: #D3D3D3;
     --text-black-700: #152149;
@@ -531,7 +532,17 @@ p {
     transition: all 0.5s ease-in-out;
 }
 
-.plus-button:hover {
+.plus-button-ncabp {
+    background-color: var(--bg-green-100);
+    padding: 15px;
+    margin-top: 5%;
+    color: var(--text-white-100);
+    font-family: var(--font-heading), 'Arial', sans-serif;
+    font-size: 18px;
+    transition: all 0.5s ease-in-out;
+}
+
+.plus-button:hover, .plus-button-ncabp:hover {
     color: var(--text-or-100);
     transform: scale(1.05);
 }
@@ -1337,4 +1348,465 @@ p {
         margin-top: 5%;
     }
 
+}
+
+/* NCABP Page */
+.ncabp-tag {
+    padding: 12px 20px;
+    color: var(--text-white-100);
+    font-family: var(--font-heading), 'Arial', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.ncabp-tag.pillars, .ncabp-tag.commitments, .ncabp-tag.success {
+    background: var(--bg-or-100);
+}
+
+.ncabp-tag.models, .ncabp-tag.impact, .ncabp-tag.ecosystem, .ncabp-tag.phases, .ncabp-tag.cta, .ncabp-tag.hero {
+    background: var(--bg-green-100);
+}
+
+.ncabp-eyebrow {
+    font-family: var(--font-heading), 'Arial', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.ncabp-eyebrow.vision {
+    color: var(--text-or-100);
+}
+
+.ncabp-eyebrow.mission {
+    color: var(--bg-green-100);
+}
+
+.ncabp-note {
+    margin-top: 3%;
+    color: var(--text-black-700);
+    font-style: italic;
+    opacity: 0.8;
+}
+
+/* Hero */
+.ncabp-hero {
+    position: relative;
+    background-image: linear-gradient(rgba(21, 33, 73, 0.72), rgba(21, 33, 73, 0.72)), url("/images/bg.webp");
+    background-size: cover;
+    background-position: center;
+    color: var(--text-white-100);
+    padding: 8% 5% 6% 5%;
+    gap: 20px;
+}
+
+.ncabp-hero h1 {
+    color: var(--text-white-100);
+}
+
+.ncabp-hero-tagline {
+    margin-top: 2%;
+    padding-top: 3%;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    gap: 4px;
+}
+
+.ncabp-hero-tagline h5 {
+    color: var(--text-white-100);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Bridge */
+.ncabp-bridge {
+    background-color: var(--bg-white-100);
+    padding: 5%;
+}
+
+.ncabp-bridge h2 {
+    font-family: var(--font-heading), 'Arial', sans-serif;
+    color: var(--bg-green-100);
+}
+
+.ncabp-bridge p {
+    font-family: var(--font-body), 'Arial', sans-serif;
+    color: var(--text-black-100);
+}
+
+.ncabp-bridge-number {
+    font-family: var(--font-heading), 'Arial', sans-serif;
+    font-size: 140px;
+    line-height: 1;
+    font-weight: 800;
+    color: var(--bg-green-100);
+    opacity: 0.85;
+}
+
+.ncabp-countries {
+    margin-top: 10px;
+}
+
+.ncabp-anchor-country {
+    background-color: var(--bg-green-100);
+    color: var(--text-white-100);
+    font-family: var(--font-heading), 'Arial', sans-serif;
+    padding: 8px 18px;
+    align-self: flex-start;
+}
+
+.ncabp-countries p {
+    font-size: 15px;
+    color: var(--text-black-100);
+    align-self: center;
+}
+
+/* Vision / Mission */
+.ncabp-vm-grid {
+    padding: 1% 5%;
+}
+
+.ncabp-vm-card {
+    padding: 40px;
+    flex: 1;
+}
+
+.ncabp-vm-vision {
+    background-color: var(--bg-green-100);
+    color: var(--text-white-100);
+}
+
+.ncabp-vm-mission {
+    background-color: var(--bg-white-100);
+    border-left: 4px solid var(--bg-green-100);
+    color: var(--text-black-700);
+}
+
+.ncabp-mission-list {
+    margin-top: 10px;
+}
+
+.ncabp-mission-list li {
+    list-style: none;
+    font-size: 18px;
+    padding-left: 26px;
+    position: relative;
+}
+
+.ncabp-mission-list li::before {
+    content: "\2192";
+    position: absolute;
+    left: 0;
+    color: var(--bg-green-100);
+    font-weight: 700;
+}
+
+/* Generic sections */
+.ncabp-section {
+    padding: 5%;
+}
+
+.ncabp-section-dark {
+    background-color: var(--bg-green-100);
+}
+
+.ncabp-section-header {
+    gap: 12px;
+    margin-bottom: 40px;
+}
+
+.ncabp-section-header h2 {
+    color: var(--text-black-700);
+}
+
+.ncabp-section-header h3 {
+    color: var(--text-white-100);
+}
+
+/* Impact grid */
+.ncabp-impact-grid {
+    width: 100%;
+}
+
+.ncabp-impact-card {
+    background-color: #fff;
+    border-left: 4px solid var(--bg-green-100);
+    padding: 24px;
+    box-shadow: 0 4px 14px rgba(21, 33, 73, 0.08);
+}
+
+.ncabp-impact-card h4 {
+    color: var(--text-black-700);
+    margin-bottom: 8px;
+}
+
+.ncabp-impact-card p {
+    color: var(--text-black-100);
+    font-size: 15px;
+}
+
+/* Pillars grid */
+.ncabp-pillars-grid {
+    width: 100%;
+}
+
+.ncabp-pillar {
+    background-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    padding: 16px 20px;
+}
+
+.ncabp-pillar span {
+    font-family: var(--font-heading), 'Arial', sans-serif;
+    color: var(--text-or-100);
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.ncabp-pillar p {
+    color: var(--text-white-100);
+}
+
+/* Operating model */
+.ncabp-model-grid {
+    width: 100%;
+}
+
+.ncabp-model-step {
+    background-color: #fff;
+    border-top: 4px solid var(--bg-green-100);
+    padding: 30px 20px;
+    gap: 10px;
+    box-shadow: 0 4px 14px rgba(21, 33, 73, 0.08);
+}
+
+.ncabp-model-number {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--bg-green-100);
+    color: var(--text-white-100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-heading), 'Arial', sans-serif;
+    font-weight: 700;
+}
+
+.ncabp-model-step h4 {
+    color: var(--text-black-700);
+}
+
+.ncabp-model-step p {
+    color: var(--text-black-100);
+    font-size: 15px;
+}
+
+/* Summit */
+.ncabp-summit {
+    background-color: var(--bg-white-100);
+    padding: 1% 5%;
+}
+
+.ncabp-summit-card {
+    background-color: var(--bg-green-100);
+    color: var(--text-white-100);
+    padding: 40px;
+}
+
+.ncabp-summit-highlight {
+    color: var(--text-or-100);
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.ncabp-summit-list li {
+    list-style: none;
+    padding-left: 24px;
+    position: relative;
+    color: var(--text-black-100);
+}
+
+.ncabp-summit-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 10px;
+    height: 10px;
+    background-color: var(--bg-green-100);
+}
+
+/* Ecosystem */
+.ncabp-ecosystem-grid {
+    width: 100%;
+}
+
+.ncabp-ecosystem-card {
+    background-color: #fff;
+    border: 1px solid rgba(21, 33, 73, 0.12);
+    padding: 24px;
+}
+
+.ncabp-ecosystem-card h4 {
+    color: var(--bg-green-100);
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+}
+
+.ncabp-ecosystem-card p {
+    color: var(--text-black-700);
+    font-weight: 600;
+}
+
+/* Commitments */
+.ncabp-commitments-grid {
+    width: 100%;
+}
+
+.ncabp-commitment {
+    background-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    padding: 24px;
+}
+
+.ncabp-commitment h4 {
+    color: var(--text-or-100);
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.ncabp-commitment p {
+    color: var(--text-white-100);
+    font-size: 15px;
+}
+
+/* Phases */
+.ncabp-phases {
+    width: 100%;
+}
+
+.ncabp-phase {
+    border-top: 4px solid var(--bg-or-100);
+    padding-top: 26px;
+    gap: 8px;
+}
+
+.ncabp-phase-number {
+    width: 40px;
+    height: 40px;
+    margin-top: -47px;
+    border-radius: 50%;
+    background-color: var(--bg-green-100);
+    color: var(--text-white-100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-heading), 'Arial', sans-serif;
+    font-weight: 700;
+}
+
+.ncabp-phase h4 {
+    color: var(--text-black-700);
+    font-size: 18px;
+}
+
+.ncabp-phase p {
+    color: var(--text-black-100);
+    font-size: 15px;
+}
+
+/* Success indicators */
+.ncabp-success-list {
+    width: 100%;
+}
+
+.ncabp-success-item {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 18px 0px;
+}
+
+.ncabp-success-item span {
+    font-family: var(--font-heading), 'Arial', sans-serif;
+    color: var(--text-or-100);
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.ncabp-success-item h4 {
+    color: var(--text-white-100);
+    font-size: 18px;
+    min-width: 220px;
+}
+
+.ncabp-success-item p {
+    color: var(--text-white-100);
+    font-size: 15px;
+}
+
+/* CTA */
+.ncabp-cta {
+    background-color: var(--bg-white-100);
+    padding: 3% 5%;
+    gap: 16px;
+}
+
+.ncabp-cta h2 {
+    color: var(--text-black-700);
+}
+
+.ncabp-cta p {
+    color: var(--text-black-100);
+}
+
+.ncabp-cta-steps {
+    margin: 20px 0px;
+}
+
+.ncabp-cta-steps > div {
+    background-color: #fff;
+    border-top: 4px solid var(--bg-green-100);
+    padding: 20px 26px;
+    box-shadow: 0 4px 14px rgba(21, 33, 73, 0.08);
+}
+
+.ncabp-cta-steps span {
+    font-family: var(--font-heading), 'Arial', sans-serif;
+    color: var(--bg-green-100);
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.ncabp-cta-steps p {
+    color: var(--text-black-700);
+    font-size: 15px;
+}
+
+.ncabp-cta-footer {
+    margin-top: 10px;
+    color: var(--text-black-100);
+    opacity: 0.6;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+@media (max-width: 600px) {
+    .ncabp-hero {
+        padding-top: 30%;
+    }
+
+    .ncabp-bridge-number {
+        font-size: 90px;
+    }
+
+    .ncabp-success-item h4 {
+        min-width: 0px;
+    }
 }

@@ -8,7 +8,7 @@ if (!i18next.isInitialized) {
     lng: defaultLocale,
     fallbackLng: defaultLocale,
     defaultNS: "common",
-    ns: ["common", "home", "about", "services", "contact", "blog"],
+    ns: ["common", "home", "about", "services", "contact", "blog", "ncabp"],
     interpolation: {
       escapeValue: false,
     },

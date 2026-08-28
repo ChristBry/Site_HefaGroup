@@ -18,6 +18,7 @@ const Header = () => {
         { to: '/about', label: t('nav.about') },
         { to: '/services', label: t('nav.services') },
         { to: '/news', label: t('nav.news') },
+        { to: '/ncabp', label: t('nav.ncabp') },
         { to: '/contact', label: t('nav.contact') }
     ]
 

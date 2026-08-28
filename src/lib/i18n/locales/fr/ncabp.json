@@ -1,0 +1,150 @@
+{
+  "hero": {
+    "tag": "Vision Stratégique",
+    "title": "Plateforme d'affaires Nigeria–Afrique centrale",
+    "description": "La passerelle régionale pour la coopération économique, l'investissement, la mobilité et le développement durable.",
+    "frameworkLabel": "Cadre de partenariat",
+    "tagline": "Relier le Nigeria. Renforcer l'Afrique centrale. Bâtir la prospérité."
+  },
+  "bridge": {
+    "tag": "NCABP",
+    "title": "Un pont régional, sept marchés prioritaires",
+    "count": "7",
+    "countLabel": "Nigeria + six pays de la CEMAC au sein de la CEEAC",
+    "description": "NCABP crée une voie fiable pour l'accès aux marchés, les partenariats stratégiques, la facilitation des investissements et un dialogue public-privé durable.",
+    "anchorCountry": "Nigeria",
+    "countries": ["Cameroun", "République Centrafricaine", "Tchad", "République du Congo", "Guinée Équatoriale", "Gabon"]
+  },
+  "visionMission": {
+    "vision": {
+      "label": "Vision",
+      "title": "Devenir la principale plateforme régionale reliant le Nigeria et l'Afrique centrale.",
+      "description": "La passerelle de référence pour une coopération inclusive, l'investissement, la mobilité, l'innovation et le développement durable."
+    },
+    "mission": {
+      "label": "Mission",
+      "title": "Faciliter des connexions à fort impact entre gouvernements, dirigeants du secteur privé, investisseurs, institutions et entrepreneurs.",
+      "items": [
+        "Mise en relation d'affaires",
+        "Dialogue politique et intelligence de marché",
+        "Développement de projets et promotion des investissements",
+        "Collaboration transfrontalière"
+      ]
+    }
+  },
+  "impact": {
+    "tag": "Domaines d'action",
+    "title": "Transformer le potentiel régional en actions mesurables",
+    "items": [
+      { "title": "Commerce", "description": "Accroître les échanges bilatéraux et régionaux." },
+      { "title": "Chaînes de valeur", "description": "Développer l'agriculture, l'industrie, l'énergie et les infrastructures." },
+      { "title": "Investissement", "description": "Identifier et promouvoir des opportunités bancables." },
+      { "title": "Innovation", "description": "Accélérer les transferts technologiques et le partage des connaissances." },
+      { "title": "Connectivité", "description": "Renforcer les liaisons aériennes, touristiques et de transport." },
+      { "title": "Entrepreneuriat", "description": "Ouvrir les marchés aux PME, aux jeunes et aux femmes entrepreneures." },
+      { "title": "Santé", "description": "Élargir l'accès à l'expertise, aux services et aux investissements." },
+      { "title": "Dialogue", "description": "Créer des mécanismes durables entre gouvernements et secteur privé." }
+    ]
+  },
+  "pillars": {
+    "tag": "Cadre sectoriel",
+    "title": "Douze piliers pour une croissance régionale intégrée",
+    "items": [
+      "Commerce & Investissement",
+      "Tourisme",
+      "Aviation",
+      "Santé",
+      "Agriculture",
+      "Industrie manufacturière",
+      "Technologie & Innovation",
+      "Culture & Industries créatives",
+      "Infrastructures",
+      "Énergie",
+      "Entrepreneuriat des jeunes & des femmes",
+      "Partenariats public-privé"
+    ]
+  },
+  "model": {
+    "tag": "Modèle opérationnel",
+    "title": "Les connexions deviennent des partenariats, des projets et un impact régional",
+    "note": "Un mécanisme permanent — pas un événement ponctuel",
+    "steps": [
+      { "title": "Connecter", "description": "Mises en relation fiables et accès aux marchés" },
+      { "title": "Réunir", "description": "Sommets, forums et dialogue politique" },
+      { "title": "Faciliter", "description": "Matchmaking, projets et investissements" },
+      { "title": "Déployer", "description": "Services continus et nouveaux marchés" }
+    ]
+  },
+  "summit": {
+    "tag": "Événement phare",
+    "title": "Sommet & Expo Nigeria–Afrique centrale",
+    "description": "Un rendez-vous annuel réunissant décideurs publics et privés, investisseurs, institutions et entrepreneurs.",
+    "highlight": "Affaires. Politiques. Investissement. Visibilité.",
+    "yearRoundTag": "Moteur à l'année",
+    "yearRound": [
+      "Forums sectoriels, tables rondes et webinaires",
+      "Missions commerciales, vitrines pays et tournées investisseurs",
+      "Mise en relation B2B et B2G",
+      "Intelligence de marché et conseil à l'implantation",
+      "Facilitation de projets et introductions auprès d'investisseurs",
+      "Programmes d'entrepreneuriat pour les jeunes et les femmes",
+      "Médias, image de marque et valorisation des réussites"
+    ]
+  },
+  "ecosystem": {
+    "tag": "Écosystème",
+    "title": "Une plateforme pour tout l'écosystème régional",
+    "note": "Les jeunes et les femmes entrepreneures sont intégrés à chaque groupe de parties prenantes.",
+    "groups": [
+      { "title": "Leadership public", "items": "Gouvernements • Agences publiques • Chambres de commerce" },
+      { "title": "Capital & Entreprise", "items": "Entreprises • Investisseurs • Banques • IFD • PME • Start-up" },
+      { "title": "Talents & Connaissances", "items": "Universités • Instituts de formation • Partenaires au développement • Médias" },
+      { "title": "Réseaux régionaux", "items": "Compagnies aériennes • Aéroports • Tourisme • Santé • Réseaux d'affaires de la diaspora" }
+    ]
+  },
+  "commitments": {
+    "tag": "Gouvernance",
+    "title": "Le partenariat repose sur six engagements communs",
+    "items": [
+      { "title": "Construire", "description": "Positionner NCABP comme une institution régionale crédible, neutre et axée sur les résultats." },
+      { "title": "Mobiliser", "description": "Associer gouvernements, sponsors, investisseurs, partenaires stratégiques et entreprises." },
+      { "title": "Réaliser", "description": "Déployer des programmes produisant des résultats commerciaux et de développement mesurables." },
+      { "title": "Gouverner", "description": "Garantir transparence, professionnalisme, inclusion et responsabilité." },
+      { "title": "Protéger", "description": "Préserver la réputation, la propriété intellectuelle et les relations de la plateforme." },
+      { "title": "Évaluer", "description": "Suivre les performances et approuver toute expansion d'un commun accord." }
+    ]
+  },
+  "phases": {
+    "tag": "Feuille de route",
+    "title": "Quatre phases, de la fondation au déploiement",
+    "note": "Les plans de travail annuels définissent les priorités, responsabilités, budgets, indicateurs de performance et rapports.",
+    "steps": [
+      { "title": "Établir", "description": "Gouvernance, positionnement de marque, cartographie des parties prenantes" },
+      { "title": "Activer", "description": "Mobilisation des pays, groupes sectoriels, mise en relation" },
+      { "title": "Consolider", "description": "Développer le Sommet et constituer des portefeuilles d'investissement" },
+      { "title": "Étendre", "description": "Déployer les programmes éprouvés dans la CEEAC et en Afrique" }
+    ]
+  },
+  "success": {
+    "tag": "Indicateurs",
+    "title": "Mesurer le succès par les accords et la participation",
+    "items": [
+      { "title": "Une passerelle fiable", "description": "Un mécanisme de coopération reconnu entre le Nigeria et l'Afrique centrale." },
+      { "title": "Plus d'activité commerciale", "description": "Contrats commerciaux, investissements, coentreprises et partenariats stratégiques." },
+      { "title": "Une meilleure connectivité", "description": "Des liaisons aériennes, touristiques, cargo et d'affaires renforcées." },
+      { "title": "Des projets bancables", "description": "Des opportunités visibles dans les secteurs prioritaires de la plateforme." },
+      { "title": "Une participation élargie", "description": "Davantage de PME et d'entreprises dirigées par des jeunes et des femmes actives dans le commerce régional." }
+    ]
+  },
+  "cta": {
+    "tag": "Priorités du partenariat",
+    "title": "Bâtir la passerelle. Relier les opportunités aux capitaux.",
+    "description": "Une plateforme concrète pour une prospérité partagée entre le Nigeria et l'Afrique centrale.",
+    "steps": [
+      "Aligner le partenariat fondateur",
+      "Mobiliser les gouvernements et partenaires stratégiques",
+      "Lancer le premier cycle de programmes"
+    ],
+    "footer": "Plateforme d'affaires Nigeria–Afrique centrale"
+  }
+}
