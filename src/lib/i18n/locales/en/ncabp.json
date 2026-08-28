@@ -1,0 +1,150 @@
+{
+  "hero": {
+    "tag": "Strategic Vision",
+    "title": "Nigeria–Central Africa Business Platform",
+    "description": "The regional gateway for economic cooperation, investment, mobility and sustainable development.",
+    "frameworkLabel": "Partnership Framework",
+    "tagline": "Connecting Nigeria. Empowering Central Africa. Building prosperity."
+  },
+  "bridge": {
+    "tag": "NCABP",
+    "title": "A regional bridge, seven priority markets",
+    "count": "7",
+    "countLabel": "Nigeria + six CEMAC countries within ECCAS",
+    "description": "NCABP creates a reliable pathway for market access, strategic partnerships, investment facilitation and sustained public-private dialogue.",
+    "anchorCountry": "Nigeria",
+    "countries": ["Cameroon", "Central African Republic", "Chad", "Republic of the Congo", "Equatorial Guinea", "Gabon"]
+  },
+  "visionMission": {
+    "vision": {
+      "label": "Vision",
+      "title": "To become the leading regional platform connecting Nigeria and Central Africa.",
+      "description": "The reference gateway for inclusive cooperation, investment, mobility, innovation and sustainable development."
+    },
+    "mission": {
+      "label": "Mission",
+      "title": "To facilitate high-impact connections between governments, private sector leaders, investors, institutions and entrepreneurs.",
+      "items": [
+        "Business matchmaking",
+        "Policy dialogue and market intelligence",
+        "Project development and investment promotion",
+        "Cross-border collaboration"
+      ]
+    }
+  },
+  "impact": {
+    "tag": "Areas of Impact",
+    "title": "Turning regional potential into measurable action",
+    "items": [
+      { "title": "Trade", "description": "Grow bilateral and regional trade flows." },
+      { "title": "Value Chains", "description": "Develop agriculture, industry, energy and infrastructure." },
+      { "title": "Investment", "description": "Identify and promote bankable opportunities." },
+      { "title": "Innovation", "description": "Accelerate technology transfer and knowledge sharing." },
+      { "title": "Connectivity", "description": "Strengthen air, tourism and transport links." },
+      { "title": "Entrepreneurship", "description": "Open markets to SMEs, youth and women entrepreneurs." },
+      { "title": "Health", "description": "Expand access to expertise, services and investment." },
+      { "title": "Dialogue", "description": "Build durable mechanisms between governments and the private sector." }
+    ]
+  },
+  "pillars": {
+    "tag": "Sector Framework",
+    "title": "Twelve pillars for integrated regional growth",
+    "items": [
+      "Trade & Investment",
+      "Tourism",
+      "Aviation",
+      "Health",
+      "Agriculture",
+      "Manufacturing",
+      "Technology & Innovation",
+      "Culture & Creative Industries",
+      "Infrastructure",
+      "Energy",
+      "Youth & Women Entrepreneurship",
+      "Public-Private Partnerships"
+    ]
+  },
+  "model": {
+    "tag": "Operating Model",
+    "title": "Connections become partnerships, projects and regional impact",
+    "note": "A permanent mechanism — not a one-off event",
+    "steps": [
+      { "title": "Connect", "description": "Reliable matchmaking and market access" },
+      { "title": "Convene", "description": "Summits, forums and policy dialogue" },
+      { "title": "Facilitate", "description": "Matchmaking, projects and investment" },
+      { "title": "Deploy", "description": "Ongoing services and new markets" }
+    ]
+  },
+  "summit": {
+    "tag": "Flagship Event",
+    "title": "Nigeria–Central Africa Summit & Expo",
+    "description": "An annual gathering of public and private decision-makers, investors, institutions and entrepreneurs.",
+    "highlight": "Business. Policy. Investment. Visibility.",
+    "yearRoundTag": "Year-Round Engine",
+    "yearRound": [
+      "Sector forums, roundtables and webinars",
+      "Trade missions, country showcases and investor tours",
+      "B2B and B2G matchmaking",
+      "Market intelligence and market-entry advisory",
+      "Project facilitation and investor introductions",
+      "Entrepreneurship programs for youth and women",
+      "Media, branding and success-story amplification"
+    ]
+  },
+  "ecosystem": {
+    "tag": "Ecosystem",
+    "title": "A platform for the entire regional ecosystem",
+    "note": "Youth and women entrepreneurs are embedded across every stakeholder group.",
+    "groups": [
+      { "title": "Public Leadership", "items": "Governments • Public agencies • Chambers of commerce" },
+      { "title": "Capital & Enterprise", "items": "Companies • Investors • Banks • DFIs • SMEs • Startups" },
+      { "title": "Talent & Knowledge", "items": "Universities • Training institutes • Development partners • Media" },
+      { "title": "Regional Networks", "items": "Airlines • Airports • Tourism • Health • Diaspora business networks" }
+    ]
+  },
+  "commitments": {
+    "tag": "Governance",
+    "title": "The partnership rests on six shared commitments",
+    "items": [
+      { "title": "Build", "description": "Position NCABP as a credible, neutral, results-driven regional institution." },
+      { "title": "Mobilize", "description": "Bring together governments, sponsors, investors, strategic partners and businesses." },
+      { "title": "Deliver", "description": "Roll out programs that produce measurable commercial and development results." },
+      { "title": "Govern", "description": "Ensure transparency, professionalism, inclusion and accountability." },
+      { "title": "Protect", "description": "Safeguard the platform's reputation, intellectual property and relationships." },
+      { "title": "Evaluate", "description": "Track performance and approve any expansion by mutual agreement." }
+    ]
+  },
+  "phases": {
+    "tag": "Roadmap",
+    "title": "Four phases, from foundation to deployment",
+    "note": "Annual work plans define priorities, responsibilities, budgets, performance indicators and reporting.",
+    "steps": [
+      { "title": "Establish", "description": "Governance, brand positioning, stakeholder mapping" },
+      { "title": "Activate", "description": "Country mobilization, sector groups, matchmaking" },
+      { "title": "Consolidate", "description": "Grow the Summit and build investment pipelines" },
+      { "title": "Expand", "description": "Roll out proven programs across ECCAS and Africa" }
+    ]
+  },
+  "success": {
+    "tag": "Success Indicators",
+    "title": "Measuring success through deals and participation",
+    "items": [
+      { "title": "A trusted gateway", "description": "A recognized cooperation mechanism between Nigeria and Central Africa." },
+      { "title": "More business activity", "description": "Trade deals, investments, joint ventures and strategic partnerships." },
+      { "title": "Better connectivity", "description": "Stronger air, tourism, cargo and business links." },
+      { "title": "Bankable projects", "description": "Visible opportunities across the platform's priority sectors." },
+      { "title": "Broader participation", "description": "More SMEs and youth- and women-led businesses active in regional trade." }
+    ]
+  },
+  "cta": {
+    "tag": "Partnership Priorities",
+    "title": "Build the bridge. Connect opportunity to capital.",
+    "description": "A concrete platform for shared prosperity between Nigeria and Central Africa.",
+    "steps": [
+      "Align the founding partnership",
+      "Mobilize governments and strategic partners",
+      "Launch the first program cycle"
+    ],
+    "footer": "Nigeria–Central Africa Business Platform"
+  }
+}
